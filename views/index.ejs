@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: white;
+    
+}
+body{
+    margin: 40px;
+    /* background: url("background\ image"); */
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: #d3e6fd;
+    margin-bottom: 50px;
+}
+div{
+    /* margin: 40px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* background-color:white; */
+}
+input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 14%;
+    padding-left: 20px;
+    padding: 18px 20px;
+    background-color: #e8e9ff;
+    border: none;
+}
+h1{
+    text-align: center;
+    text-decoration: underline; 
+    padding-top: 30px;
+    font-weight: 10;
+    color: #0a2396;
+
+}
+::placeholder{
+    color: #0a2396;
+}
+
+textarea{
+    margin-left: 60px;
+    background-color:#a4b1fc;
+    border-radius: 10px;
+    border: none; 
+    font-size:15px;
+}
+.area{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 74%;
+}
+button{
+    padding: 12px 35px;
+    margin-left: 40%;
+    margin-top: 20px;
+    background-color: #233cf5;
+    border: none;
+    border-radius: 50px;
+}
+.btn{
+    color: white;
+    margin-bottom: 50px;
+}
+h4{
+    font-weight: 100;
+    color: #77bea9;
+    margin-left: 70px;
+    
+}
+#Address{
+    margin-top: 20px;
+    width: 475px;
+   background-color:#c7cdfd;  
+}
+
+  
+    </style>
+</head>
+<body>
+
+
+
+
+    <div class="main">
+        <form action="/api/users" method="post">
+            <h1>Login</h1>
+            <input type="text" name="name" placeholder="Name"> 
+            <input type="text" name="password" placeholder="password"><br>
+            
+            <!-- <textarea class="area"cols="60" name="comment" rows="5" placeholder="Type Your message here"></textarea><br> -->
+            <button type="submit" class="btn">submit</button><br>
+           
+        </form>
+     
+    </div>
+  
+   
+    
+
+  
+</body>
+</html>
